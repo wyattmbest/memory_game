@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Memory Game</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link href="css/app.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
+        
+        <link rel="icon" type="image/ico" href="favicon.ico">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div id="score" class="col-md-offset-2 col-md-3 text-center">
+                    <div id="gameScore" class="h3"></div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <button id="resetButton" type="button" class="btn btn-primary btn-lg">Reset</button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div id="message" class="h4 alert alert-info" hidden></div>
+                </div>
+            </div>
+            <div id="gameField">
+                <div id="field" class="center-block well"></div>
+            </div>		
+        </div>
+    </body>
+</html>
